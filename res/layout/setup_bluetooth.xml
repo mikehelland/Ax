@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+        >
+
+
+    <TextView android:layout_height="wrap_content" android:id="@+id/setup_bt_title"
+              android:text="@string/setup_bt_text1"
+              android:layout_width="wrap_content"
+
+              android:textSize="22sp"
+
+              android:layout_marginLeft="12dip"
+              android:layout_marginRight="12dip"
+              android:layout_marginTop="0dip"
+              android:layout_marginBottom="6dip"
+            />
+
+    <TextView android:layout_height="wrap_content" android:id="@+id/bt_status"
+              android:text="Bluetooth is ON"
+              android:layout_width="wrap_content"
+              android:textColor="#FF00FF00"
+
+              android:textSize="20sp"
+
+              android:layout_marginLeft="8dip"
+              android:layout_marginTop="0dip"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+            />
+
+    <TextView android:layout_height="wrap_content" android:id="@+id/bt_details"
+              android:text="@string/how_it_works"
+              android:layout_width="wrap_content"
+
+
+              android:layout_marginLeft="24dip"
+              android:layout_marginRight="12dip"
+              android:layout_marginTop="0dip"
+              android:layout_marginBottom="6dip"
+
+              android:layout_below="@id/setup_bt_title"
+            />
+
+
+    <LinearLayout
+            android:id="@+id/bottom_bar"
+            android:orientation="horizontal"
+            android:background="@android:drawable/bottom_bar"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="5.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingBottom="1.0dip"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true">
+
+        <Button
+                android:id="@+id/connect_to_mixer_button"
+                android:layout_width="0.0dip" android:layout_height="fill_parent"
+                android:text="@string/connect_to_a_device_mixer"
+                android:layout_weight="1.0"
+                android:drawableLeft="@drawable/icon48"
+
+                />
+
+
+        <Button
+                android:id="@+id/become_a_mixer_button"
+                android:layout_width="0.0dip" android:layout_height="fill_parent"
+                android:text="@string/become_a_device_mixer"
+                android:layout_weight="1.0"
+                android:drawableLeft="@drawable/mix"
+                />
+
+
+    </LinearLayout>
+
+    <ImageView android:layout_below="@id/bt_details"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/diagram"
+               android:layout_above="@id/bottom_bar"
+               android:layout_centerHorizontal="true"
+               android:layout_margin="4dip"
+            />
+
+</RelativeLayout>

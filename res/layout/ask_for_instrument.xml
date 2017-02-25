@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+        >
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+    <ImageButton android:id="@+id/aguitar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aguitar"
+            />
+
+    <ImageButton android:id="@+id/eguitar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eguitar"
+            />
+
+    <ImageButton android:id="@+id/eguitarpower_button"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/eguitar"
+                />
+
+        <ImageButton android:id="@+id/bass_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bass"
+            />
+    <ImageButton android:id="@+id/drums_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drum"
+            />
+    <ImageButton android:id="@+id/synth_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialpad"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="@android:drawable/bottom_bar"
+            android:paddingLeft="4.0dip"
+            android:paddingTop="5.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingBottom="1.0dip"
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            >
+
+        <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:layout_weight="1.0" />
+
+    </LinearLayout>
+</LinearLayout>

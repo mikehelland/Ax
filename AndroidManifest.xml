@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.monadpad.ax"
+          android:versionCode="40"
+          android:versionName="4.0">
+    <uses-sdk android:minSdkVersion="5" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application android:label="@string/app_name" android:icon="@drawable/icon48wpick">
+        <activity android:name=".FretsActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape"
+                  android:icon="@drawable/icon48wpick"
+                  android:launchMode="singleInstance"
+                  android:theme="@style/AppTheme"
+                >
+            <!--  -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="com.monadpad.ax"></action>
+            </intent-filter>
+
+        </activity>
+
+        <!--<activity android:name=".FretsActivity"
+                  android:label="@string/frets_name"
+                  android:screenOrientation="landscape"
+                  android:icon="@drawable/icon48">
+        </activity>-->
+
+        <activity android:name="com.monadpad.ax.SetupBluetoothActivity"
+                  android:screenOrientation="landscape"
+                ></activity>
+
+
+        <activity android:name="com.monadpad.ax.SynthPreferences"></activity>
+        <activity android:name="com.monadpad.ax.PickPreferences"></activity>
+
+        <service android:name=".dsp.SynthService">
+            <intent-filter>
+                <action android:name="com.monadpad.ax.dsp.ISynthService" />
+            </intent-filter>
+        </service>
+
+    </application>
+</manifest>

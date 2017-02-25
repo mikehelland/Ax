@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/pick"
+        >
+
+    <Button android:id="@+id/device1"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="1"
+            android:background="@drawable/phone_button"
+            android:layout_margin="70dp"
+            />
+
+
+    <Button android:id="@+id/device2"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="2"
+            android:background="@drawable/phone_button"
+            android:layout_margin="70dp"
+            />
+
+    <Button android:id="@+id/device3"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="3"
+            android:background="@drawable/phone_button"
+            android:layout_margin="70dp"
+            />
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bitar</string>
+    <string name="pick_name">Bitar Pick</string>
+    <string name="frets_name">Bitar Frets</string>
+
+    <string name="mode_description">Bitar Fretboard can run standalone,
+        or it can be used with Bitar Pick on another phone connected by Bluetooth.
+        \n\nWhich mode would you like?</string>
+    <string name="choose_an_instrument">Choose an Instrument</string>
+    <string name="remember_pref">Remember My Preference</string>
+    <string name="standalone_mode">Standalone</string>
+    <string name="bluetooth_mode">Bluetooth</string>
+
+
+    <string name="ok_setup_bluetooth">Cool, setup Bluetooth!</string>
+    <string name="lessons">Show me something!</string>
+    <string name="i_wanna_rock">I Just Wanna Rock!</string>
+    <string name="i_really_rock">I Really Wanna Rock!</string>
+
+    <string name="show_startup_screen">Show Startup Screen</string>
+
+    <string name="explain_pick_text1">Bitar, the Touchscreen Digital Guitar!</string>
+    <string name="explain_pick_text2">Bitar can use Bluetooth to join phones and tablets
+        into a fun and innovative musical instrument.
+        \n\nOr use Bitar by itself to play rockin\' guitar and bass parts.
+    </string>
+
+    <string name="setup_bt_text1">Bitar Bluetooth Setup</string>
+    <string name="setup_bt_text2">Bitar can use Bluetooth to join phones and tablets
+        into a fun and innovative musical instrument.
+        \n\nOr use Bitar by itself to play rockin\' guitar and bass parts.
+    </string>
+
+    <string name="how_it_works">Bitar uses Bluetooth to transform multiple devices into
+        a musical instrument that can be played by one or more people!
+        \n
+        \n
+        One device acts as the Device Mixer and the rest connect to it. Try it out!
+    </string>
+
+
+    <string name="bluetooth_steps">
+        step1. Start the \"Bitar Frets\" app on one or more devices \n
+        step2. Start the \"Bitar Pick\" app on a device paired to the others\n
+        step3. Rock on!
+    </string>
+    <string name="settings_menu">Settings</string>
+    <string name="background_menu">Choose Background</string>
+    <string name="bluetooth_is_on">Bluetooth is ON</string>
+    <string name="bluetooth_is_off">Bluetooth is OFF</string>
+
+    <string name="turn_on_bluetooth">To connect multiple devices into a single Bitar,
+        please turn on Bluetooth.</string>
+
+    <string name="try_turning_on_bluetooth">Turn on Bluetooth</string>
+
+    <string name="connect_to_a_device_mixer">Connect to a Device Mixer</string>
+    <string name="become_a_device_mixer">Become a Device Mixer</string>
+</resources>

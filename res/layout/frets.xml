@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/channelthing"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:background="@drawable/channelbackground"
+        >
+
+    <ImageButton android:id="@+id/bt_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignParentBottom="true"
+                 android:src="@drawable/bluetooth"
+            />
+
+    <ImageButton android:id="@+id/omgdrums_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_above="@id/bt_button"
+                 android:src="@drawable/omgdrums"
+            />
+
+
+    <ImageButton android:id="@+id/record_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/record"
+                 android:tag="RECORD"
+            />
+
+
+
+    <ImageButton android:id="@+id/instrument_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/eguitar"
+                 android:layout_below="@id/record_button"
+
+            />
+
+
+
+    <LinearLayout
+            android:id="@+id/loop_list"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bt_button"
+            android:layout_alignParentTop="true"
+            android:background="#80FF2020"
+
+            >
+
+            <TextView android:text="Loops:"
+                    android:layout_height="fill_parent"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:id="@+id/loops_caption"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+
+    <ImageButton android:id="@+id/mixer_mode_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/mix"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentRight="true"
+                 android:visibility="gone"
+            />
+
+
+
+    <LinearLayout
+            android:id="@+id/devices_list"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bt_button"
+            android:layout_alignParentBottom="true"
+            android:background="#802020FF"
+
+            >
+
+        <TextView android:text="Devices:"
+                  android:layout_height="fill_parent"
+                  android:layout_width="wrap_content"
+                  android:visibility="gone"
+                  android:id="@+id/devices_caption"
+                  android:gravity="center_vertical"
+                />
+
+    </LinearLayout>
+
+    <com.monadpad.ax.FretsView
+            android:id="@+id/frets"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/bt_button"
+            android:layout_below="@id/loop_list"
+            android:layout_above="@id/devices_list"
+            />
+
+</RelativeLayout>
+
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+            android:title="Use Bluetooth"
+            android:key="use_bluetooth"
+            android:defaultValue="false"
+            />
+
+
+    <ListPreference
+            android:title="Instrument"
+            android:key="instrument"
+            android:defaultValue="EGUITAR CHORDS"
+            android:entries="@array/instrument_entries"
+            android:entryValues="@array/instrument_values"/>
+
+    <ListPreference
+            android:title="Dialpad Wave"
+            android:key="waveform"
+            android:defaultValue="Sine"
+            android:entryValues="@array/waveforms"
+            android:entries="@array/waveforms"
+            />
+
+    <ListPreference
+		android:title="Dialpad Scale"
+		android:key="quantizer"
+		android:defaultValue="0,2,4,5,7,9,11"
+		android:entries="@array/quantizer_entries"
+		android:entryValues="@array/quantizer_values"/>
+		
+    <ListPreference
+            android:title="Dialpad Key"
+            android:key="base"
+            android:defaultValue="40"
+            android:entries="@array/base_captions"
+            android:entryValues="@array/base"/>
+
+
+    <CheckBoxPreference
+            android:title="Dialpad Delay"
+            android:key="delay"
+            android:defaultValue="true"
+            />
+
+    <CheckBoxPreference
+            android:title="Dialpad Flange"
+            android:key="flange"
+            android:defaultValue="false"
+            />
+
+    <CheckBoxPreference
+            android:title="Dialpad Soft Envelope"
+            android:key="soft_e"
+            android:defaultValue="true"
+            />
+
+
+
+</PreferenceScreen>

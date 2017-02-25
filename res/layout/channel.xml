@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="20dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#80000000"
+        >
+
+    <ImageButton android:id="@+id/fret_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/icon48"
+            />
+
+    <ImageButton android:id="@+id/instrument_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/eguitar"
+            />
+
+    <ImageButton android:id="@+id/record_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/record"
+                 android:tag="RECORD"
+            />
+
+
+</LinearLayout>

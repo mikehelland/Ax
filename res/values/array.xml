@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="waveforms">
+        <item>Sine</item>
+        <item>Square</item>
+        <item>Sawtooth</item>
+    </string-array>
+
+    <string-array name="quantizer_entries">
+        <item>Major</item>
+        <item>Rock</item>
+    </string-array>
+
+    <string-array name="quantizer_values">
+        <item>0,2,4,5,7,9,11</item>
+        <item>0,3,5,6,7,10</item>
+    </string-array>
+
+    <string-array name="instrument_entries">
+        <item>Electric Guitar Power Chords</item>
+        <item>Acoustic Guitar Chords</item>
+        <item>Electric Bass</item>
+        <item>Ethereal Dialpad Synth</item>
+        <item>Hip Drums</item>
+    </string-array>
+    <string-array name="instrument_values">
+        <item>EGUITAR CHORDS</item>
+        <item>AGUITAR CHORDS</item>
+        <item>EBASS</item>
+        <item>SYNTH</item>
+        <item>HHDRUMS</item>
+    </string-array>
+
+
+    <!--
+    <string-array name="instrument_entries">
+        <item>Soft Sine + Delay</item>
+        <item>Sine</item>
+        <item>Soft Sqr + Delay</item>
+        <item>Sqr + Delay</item>
+        <item>Soft Sqr + Flange</item>
+        <item>Sqr</item>
+        <item>Soft Sqr</item>
+        <item>Soft Saw</item>
+        <item>Saw</item>
+        <item>Soft Saw + Delay</item>
+        <item>Saw+ Delay</item>
+    </string-array>
+    <string-array name="instrument_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    -->
+
+
+
+    <string-array name="base">
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+
+    </string-array>
+
+    <string-array name="base_captions">
+        <item>C 1</item>
+        <item>C# 1</item>
+        <item>D 1</item>
+        <item>D# 1</item>
+        <item>E 1</item>
+        <item>F 1</item>
+        <item>F# 1</item>
+        <item>G 1</item>
+        <item>G# 1</item>
+        <item>A 1</item>
+        <item>Bb 1</item>
+        <item>B 1</item>
+        <item>C 2</item>
+        <item>C# 2</item>
+        <item>D 2</item>
+        <item>D# 2</item>
+        <item>E 2</item>
+        <item>F 2</item>
+        <item>F# 2</item>
+        <item>G 2</item>
+        <item>G# 2</item>
+        <item>A 3</item>
+        <item>Bb 3</item>
+        <item>B 3</item>
+        <item>C 3</item>
+        <item>C# 3</item>
+        <item>D 3</item>
+        <item>D# 3</item>
+        <item>E 3</item>
+        <item>F 3</item>
+        <item>F# 3</item>
+        <item>G 3</item>
+        <item>G# 2</item>
+        <item>A 3</item>
+        <item>Bb 3</item>
+        <item>B 3</item>
+        <item>C 4</item>
+        <item>C# 4</item>
+        <item>D 4</item>
+        <item>D# 4</item>
+        <item>E 4</item>
+    </string-array>
+
+</resources>
